@@ -1,0 +1,10 @@
+
+.vscode/*.json
+**/__pycache__
+.venv
+.env
+.DS**
+
+
+
+
