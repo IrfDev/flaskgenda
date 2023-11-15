@@ -1,6 +1,6 @@
 # About
 
-Flask app to manage contacts with a simple to use API 
+Flask app to manage contacts with a simple to use API
 
 This project was made as part of the Kodemia bootcamp for learning Backend and Cloud Technologies with Python and AWS
 
@@ -86,7 +86,22 @@ pip freeze > requirements.txt
 
 ```
 
+## Create your .env file with the .env.example format
+
+```shell
+cp .env.example .env \
+# Or your favorite text/code editor of your preference
+vi .env
+```
+
+## Initialize your flask server
+
+```python
+
+ flask --app __init__  run --debug
+
+```
+
 # CODE AS YOU MEAN IT
 
 # [Postman Test](https://www.postman.com/irfdev/workspace/pygenda/globals)
-
